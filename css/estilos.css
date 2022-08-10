@@ -1,0 +1,37 @@
+.h1_home {
+  text-decoration: dotted;
+  color: black;
+}
+a:hover {
+  color: #154c62;
+}
+.container-fluid {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.h2_home {
+  margin: 150px;
+}
+.principal_bg {
+  background-color: #000000;
+  opacity: 0.7;
+  background-image: radial-gradient(
+      #1f6d8c 1.6500000000000001px,
+      transparent 1.6500000000000001px
+    ),
+    radial-gradient(#1f6d8c 1.6500000000000001px, #000000 1.6500000000000001px);
+  background-size: 66px 66px;
+  background-position: 0 0, 33px 33px;
+}
+
+.full {
+  height: 640px;
+}
+.nav-link {
+  color: #1f6d8c;
+}
+
+.h2_home {
+  color: white;
+}
