@@ -1,3 +1,8 @@
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+}
 .h1_home {
   text-decoration: dotted;
   color: black;
@@ -5,8 +10,9 @@
 a:hover {
   color: #154c62;
 }
-.container-fluid {
+.container-fluid-body {
   display: flex;
+  flex-direction: column;
   justify-content: center !important;
   align-items: center !important;
 }
